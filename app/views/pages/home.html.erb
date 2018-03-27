@@ -9,6 +9,10 @@
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Mono" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/pieces.css" />
+		<link rel="stylesheet" type="text/css" href="sponsor/pater.css" />
 		<script>document.documentElement.className = 'js';</script>
 	</head>
 	<body>
@@ -31,8 +35,7 @@
 			</symbol>
 		</svg>
 		<main>
-			<%= image_tag("normal.jpg") %>
-			<div class="pieces" style="background-image: url(<%= image_tag("normal.jpg") %>)" data-img-alt="url(<%= image_tag("alt.jpg") %>)" data-img-code="url(<%= image_tag("normal.jpg") %>)"></div>
+			<div class="pieces" style="background-image: url(img/normal.jpg)" data-img-alt="url(img/alt.jpg)" data-img-code="url(img/code.jpg)"></div>
 			<div class="overlay overlay--hidden"></div>
 			<div class="content">
 				<div class="content__inner">
@@ -85,5 +88,9 @@
 			</div><!-- /content -->
 			<div class="loading"></div>
 		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
