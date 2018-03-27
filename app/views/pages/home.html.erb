@@ -31,7 +31,8 @@
 			</symbol>
 		</svg>
 		<main>
-			<div class="pieces" style="background-image: url(img/normal.jpg)" data-img-alt="url(img/alt.jpg)" data-img-code="url(img/code.jpg)"></div>
+			<%= image_tag("normal.jpg") %>
+			<div class="pieces" style="background-image: url(<%= image_tag("normal.jpg") %>)" data-img-alt="url(<%= image_tag("alt.jpg") %>)" data-img-code="url(<%= image_tag("normal.jpg") %>)"></div>
 			<div class="overlay overlay--hidden"></div>
 			<div class="content">
 				<div class="content__inner">
