@@ -5,6 +5,6 @@ module PagesHelper
 	end
 
 	def site_title
-		@site_title = "::..Cre8tnHavic - When it comes to code I do my own stunts..::"
+		@site_title ||= "::..Cre8tnHavic - When it comes to code I do my own stunts..::"
 	end
 end
